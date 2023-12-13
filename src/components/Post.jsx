@@ -1,6 +1,6 @@
 import {useContext} from "react";
 import UserContext from "../context/UserContext.js";
-import "./Post.css";
+import "../styles/Post.css";
 
 export default function Post({post}) {
 

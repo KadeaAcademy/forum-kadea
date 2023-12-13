@@ -1,6 +1,6 @@
 import {useContext, useState} from "react";
 import UserContext from "../context/UserContext.js";
-import "./CreatePost.css";
+import "../styles/CreatePost.css";
 
 export default function CreatePost({onCreatePost}) {
 

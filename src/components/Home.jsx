@@ -2,7 +2,7 @@ import data from "../models/services/DataService.js";
 import Post from "./Post.jsx";
 import CreatePost from "./CreatePost.jsx";
 import {useState} from "react";
-import "./Home.css";
+import "../styles/Home.css";
 
 export default function Home() {
 
