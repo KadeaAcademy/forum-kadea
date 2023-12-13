@@ -1,0 +1,19 @@
+.home {
+    @apply min-h-screen flex flex-col items-center justify-center bg-gray-100;
+}
+
+.home header {
+    @apply py-4 text-center font-bold text-2xl;
+}
+
+.home main {
+    @apply mt-8 flex flex-col w-full max-w-screen-md mx-auto space-y-8;
+}
+
+.home posts {
+    @apply flex flex-col space-y-4;
+}
+
+.home post {
+    @apply border rounded-md p-4 shadow-sm;
+}

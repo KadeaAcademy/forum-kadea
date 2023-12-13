@@ -1,0 +1,23 @@
+.login {
+    @apply flex flex-col items-center justify-center min-h-screen bg-gray-100;
+}
+
+.login header {
+    @apply py-4 text-center font-bold text-2xl;
+}
+
+.login main {
+    @apply mt-8 flex flex-col items-center space-y-4;
+}
+
+.login label {
+    @apply text-base font-medium text-gray-700;
+}
+
+.login input {
+    @apply px-4 py-2 border rounded-md w-full focus:outline-none focus:ring-1 focus:ring-blue-500;
+}
+
+.login button {
+    @apply px-4 py-2 rounded-md font-medium text-white bg-blue-500 hover:bg-blue-700 focus:outline-none;
+}
